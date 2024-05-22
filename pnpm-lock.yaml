@@ -1,0 +1,63 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  rege:
+    specifier: github:plug-obp/rege-js#main
+    version: github.com/plug-obp/rege-js/92e3d07a7a124c2c3a144f1a3b901428e0dff99d
+  soup:
+    specifier: github:plug-obp/soup-js#main
+    version: github.com/plug-obp/soup-js/8b45cacb413ae4189707bca69e8b85c9e4b73ea5
+  z2mc:
+    specifier: github:plug-obp/z2mc-js#async_homogeneous
+    version: github.com/plug-obp/z2mc-js/3e203794e656ca9e80247f8ff7e0700d62344e53
+
+packages:
+
+  /antlr4@4.13.1-patch-1:
+    resolution: {integrity: sha512-OjFLWWLzDMV9rdFhpvroCWR4ooktNg9/nvVYSA5z28wuVpU36QUNuioR1XLnQtcjVlf8npjyz593PxnU/f/Cow==}
+    engines: {node: '>=16'}
+    dev: false
+
+  /hash-wasm@4.11.0:
+    resolution: {integrity: sha512-HVusNXlVqHe0fzIzdQOGolnFN6mX/fqcrSAOcTBXdvzrXVHwTz11vXeKRmkR5gTuwVpvHZEIyKoePDvuAR+XwQ==}
+    dev: false
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /object-hash@2.2.0:
+    resolution: {integrity: sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==}
+    engines: {node: '>= 6'}
+    dev: false
+
+  github.com/plug-obp/rege-js/92e3d07a7a124c2c3a144f1a3b901428e0dff99d:
+    resolution: {tarball: https://codeload.github.com/plug-obp/rege-js/tar.gz/92e3d07a7a124c2c3a144f1a3b901428e0dff99d}
+    name: rege-js
+    version: 1.0.0
+    dependencies:
+      hash-wasm: 4.11.0
+    dev: false
+
+  github.com/plug-obp/soup-js/8b45cacb413ae4189707bca69e8b85c9e4b73ea5:
+    resolution: {tarball: https://codeload.github.com/plug-obp/soup-js/tar.gz/8b45cacb413ae4189707bca69e8b85c9e4b73ea5}
+    name: soup-js
+    version: 1.0.0
+    dependencies:
+      antlr4: 4.13.1-patch-1
+      hash-wasm: 4.11.0
+    dev: false
+
+  github.com/plug-obp/z2mc-js/3e203794e656ca9e80247f8ff7e0700d62344e53:
+    resolution: {tarball: https://codeload.github.com/plug-obp/z2mc-js/tar.gz/3e203794e656ca9e80247f8ff7e0700d62344e53}
+    name: z2mc-javascript
+    version: 1.0.0
+    dependencies:
+      hash-wasm: 4.11.0
+      lodash: 4.17.21
+      object-hash: 2.2.0
+    dev: false
