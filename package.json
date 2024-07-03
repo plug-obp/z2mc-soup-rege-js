@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "Ciprian TEODOROV",
@@ -14,5 +14,8 @@
     "soup": "github:plug-obp/soup-js#main",
     "rege": "github:plug-obp/rege-js#main",
     "z2mc": "github:plug-obp/z2mc-js#async_homogeneous"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
