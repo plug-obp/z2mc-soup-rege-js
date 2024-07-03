@@ -7,10 +7,10 @@ settings:
 dependencies:
   rege:
     specifier: github:plug-obp/rege-js#main
-    version: github.com/plug-obp/rege-js/4bd9683552e1b649e8a9f36e077b5cb62cba55e6
+    version: github.com/plug-obp/rege-js/3e4887e8e207fa8bb879e465991e699e2f2ffd65
   soup:
     specifier: github:plug-obp/soup-js#main
-    version: github.com/plug-obp/soup-js/16e97b67cc791a6eb8fb817fde3ea9e63bb15ca0
+    version: github.com/plug-obp/soup-js/1e098135a3cf0c211e5ce9ae8fa98dcbfba9bd2d
   z2mc:
     specifier: github:plug-obp/z2mc-js#async_homogeneous
     version: github.com/plug-obp/z2mc-js/3e203794e656ca9e80247f8ff7e0700d62344e53
@@ -2272,16 +2272,16 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/plug-obp/rege-js/4bd9683552e1b649e8a9f36e077b5cb62cba55e6:
-    resolution: {tarball: https://codeload.github.com/plug-obp/rege-js/tar.gz/4bd9683552e1b649e8a9f36e077b5cb62cba55e6}
+  github.com/plug-obp/rege-js/3e4887e8e207fa8bb879e465991e699e2f2ffd65:
+    resolution: {tarball: https://codeload.github.com/plug-obp/rege-js/tar.gz/3e4887e8e207fa8bb879e465991e699e2f2ffd65}
     name: rege-js
     version: 1.0.0
     dependencies:
       hash-wasm: 4.11.0
     dev: false
 
-  github.com/plug-obp/soup-js/16e97b67cc791a6eb8fb817fde3ea9e63bb15ca0:
-    resolution: {tarball: https://codeload.github.com/plug-obp/soup-js/tar.gz/16e97b67cc791a6eb8fb817fde3ea9e63bb15ca0}
+  github.com/plug-obp/soup-js/1e098135a3cf0c211e5ce9ae8fa98dcbfba9bd2d:
+    resolution: {tarball: https://codeload.github.com/plug-obp/soup-js/tar.gz/1e098135a3cf0c211e5ce9ae8fa98dcbfba9bd2d}
     name: soup-js
     version: 1.0.0
     dependencies:
